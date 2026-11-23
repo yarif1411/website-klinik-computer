@@ -81,7 +81,8 @@ toTop.addEventListener("click", () =>
 );
 new bootstrap.ScrollSpy(document.body, {
   target: "#navbarSupportedContent",
-  rootMargin: "0px 0px -60%",
+  rootMargin: "-20% 0px -70% 0px",
+  smoothScroll: true,
 });
 
 // Muncul saat di-scroll (dengan jeda bertahap antar elemen sejajar)
